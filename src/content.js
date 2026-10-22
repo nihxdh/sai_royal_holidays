@@ -1,0 +1,132 @@
+export const site = {
+    name: 'Sai Royal Holidays',
+    tagline: 'Journeys Crafted Royally.',
+    phoneDisplay: '+91 73958 22106',
+    phoneLink: '+917395822106',
+    whatsappNumber: '917395822106',
+    email: '', // Add the official enquiry email here when confirmed.
+    city: 'Coimbatore',
+    region: 'Tamil Nadu',
+    country: 'India',
+    canonical: 'https://sairoyalholidays.com',
+    social: { instagram: '', facebook: '' },
+    workingHours: 'Please call to confirm availability.',
+};
+export const images = {
+    hero: '/south-india-hero.jpg',
+    munnar: 'https://images.pexels.com/photos/247685/pexels-photo-247685.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    houseboat: 'https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1600&q=80',
+    tea: 'https://images.unsplash.com/photo-1682865739910-e09f449d78d7?auto=format&fit=crop&w=1600&q=80',
+    beach: 'https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    kochi: 'https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    waterfall: 'https://images.pexels.com/photos/1450082/pexels-photo-1450082.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    dubai: 'https://images.pexels.com/photos/1470502/pexels-photo-1470502.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    singapore: 'https://images.pexels.com/photos/3152126/pexels-photo-3152126.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    bali: 'https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    hills: 'https://images.unsplash.com/photo-1742106850925-7aeec2fb1ce9?auto=format&fit=crop&w=1600&q=80',
+    boat: 'https://images.pexels.com/photos/163848/boat-sea-sunset-163848.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    india: 'https://images.unsplash.com/photo-1651073231492-169afcf84f36?auto=format&fit=crop&w=1600&q=80',
+    forest: 'https://images.pexels.com/photos/167964/pexels-photo-167964.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    hampi: 'https://images.unsplash.com/photo-1722934804353-0d9f6a55ab5e?auto=format&fit=crop&w=1600&q=80',
+    mysore: 'https://images.unsplash.com/photo-1751900339512-922542072b5c?auto=format&fit=crop&w=1600&q=80',
+    hyderabad: 'https://images.unsplash.com/photo-1750834115164-8c2658f18dd0?auto=format&fit=crop&w=1600&q=80',
+    pondicherry: 'https://images.unsplash.com/photo-1662572594228-3aca8503b782?auto=format&fit=crop&w=1600&q=80',
+    temple: 'https://images.unsplash.com/photo-1651073231492-169afcf84f36?auto=format&fit=crop&w=1600&q=80',
+};
+export const services = [
+    { title: 'Educational Tours', icon: 'book', text: 'Thoughtful journeys for school and college groups.' },
+    { title: 'Group Tours', icon: 'users', text: 'Shared discoveries, planned around your group.' },
+    { title: 'Corporate Travel', icon: 'briefcase', text: 'Offsites and team journeys, made straightforward.' },
+    { title: 'Honeymoon', icon: 'heart', text: 'A little more time for just the two of you.' },
+    { title: 'Devotional Tours', icon: 'landmark', text: 'Pilgrimage routes with the practical details covered.' },
+    { title: 'Family Holidays', icon: 'house', text: 'Unhurried escapes for every generation.' },
+    { title: 'Camping Packages', icon: 'tent', text: 'Fresh air, open skies and a well-planned stay.' },
+];
+export const packages = [
+    { slug: 'munnar-thekkady-alleppey', name: 'Munnar · Thekkady · Alleppey', destination: 'Kerala', category: 'Family', days: 5, price: 18900, image: images.munnar, summary: 'Tea country, forest air and a quiet houseboat stay in one unhurried Kerala escape.', inclusions: ['Stay options to suit your plan', 'Private vehicle on request', 'Breakfast arrangement', 'Personalised route planning'], itinerary: [
+            { day: 'Day 01', title: 'Coimbatore to Munnar', details: 'Meet your driver in Coimbatore and travel towards Munnar. Check in and keep the evening free to settle into the hills.' },
+            { day: 'Day 02', title: 'Munnar tea country', details: 'Explore the tea gardens and viewpoints at a comfortable pace. Optional local experiences can be added to your plan.' },
+            { day: 'Day 03', title: 'Munnar to Thekkady', details: 'Travel through the Western Ghats to Thekkady. The afternoon is open for a spice garden visit or a local nature experience.' },
+            { day: 'Day 04', title: 'Thekkady to Alleppey', details: 'Continue to Alleppey for a backwater stay. Houseboat or lakeside accommodation can be discussed when you enquire.' },
+            { day: 'Day 05', title: 'Return journey', details: 'Enjoy breakfast and begin your return journey. Timings and drop location are confirmed to match your booking.' },
+        ], gallery: [images.munnar, images.tea, images.houseboat] },
+    { slug: 'munnar-mist-escape', name: 'Munnar Mist Escape', destination: 'Kerala', category: 'Honeymoon', days: 3, price: 12400, image: images.tea, summary: 'A compact hill-country retreat with slow mornings, tea gardens and scenic drives.', inclusions: ['Suggested couple-friendly stays', 'Route and transfer planning', 'Breakfast arrangement', 'Customisable sightseeing'], itinerary: [
+            { day: 'Day 01', title: 'Arrive in Munnar', details: 'Travel to Munnar, check in and leave the rest of the day open to unwind.' },
+            { day: 'Day 02', title: 'Tea gardens & viewpoints', details: 'Discover Munnar’s tea landscape and select viewpoints, with time for a relaxed lunch stop.' },
+            { day: 'Day 03', title: 'A gentle goodbye', details: 'Enjoy a leisurely morning before your onward journey.' },
+        ], gallery: [images.tea, images.munnar, images.hills] },
+    { slug: 'alleppey-backwater-break', name: 'Alleppey Backwater Break', destination: 'Kerala', category: 'Family', days: 2, price: 8900, image: images.houseboat, summary: 'A short escape to Kerala’s waterways with flexible houseboat and stay options.', inclusions: ['Accommodation options', 'Backwater experience planning', 'Local transfer coordination', 'Meals discussed at enquiry'], itinerary: [
+            { day: 'Day 01', title: 'Arrive by the water', details: 'Arrive in Alleppey and settle in. Your preferred houseboat or lakeside stay can be selected before booking.' },
+            { day: 'Day 02', title: 'Backwater morning', details: 'Enjoy a peaceful morning by the water before your return journey.' },
+        ], gallery: [images.houseboat, images.boat, images.beach] },
+    { slug: 'kerala-group-discovery', name: 'Kerala Group Discovery', destination: 'Kerala', category: 'Group', days: 6, price: 23900, image: images.waterfall, summary: 'A flexible group route linking hill country, wildlife surroundings and the coast.', inclusions: ['Group route planning', 'Vehicle options by group size', 'Stay coordination', 'Flexible day planning'], itinerary: [
+            { day: 'Day 01', title: 'Welcome to the hills', details: 'Meet in Coimbatore and make your way to Munnar with suitable stops along the route.' },
+            { day: 'Day 02', title: 'Munnar at your pace', details: 'Spend the day exploring tea country and surrounding viewpoints.' },
+            { day: 'Day 03', title: 'Into Thekkady', details: 'Travel to Thekkady and choose from local experiences that suit your group.' },
+            { day: 'Day 04', title: 'A day by the coast', details: 'Continue towards Kerala’s coast with a flexible stop and overnight stay.' },
+            { day: 'Day 05', title: 'Kochi stories', details: 'Explore Kochi’s heritage quarter and waterfront at a relaxed pace.' },
+            { day: 'Day 06', title: 'Return to Coimbatore', details: 'Begin the return journey with the timing planned around your group.' },
+        ], gallery: [images.waterfall, images.kochi, images.beach] },
+    { slug: 'dubai-city-and-desert', name: 'Dubai City & Desert', destination: 'Dubai', category: 'International', days: 5, price: 48900, image: images.dubai, summary: 'City highlights and a desert evening, with flight and visa assistance available.', inclusions: ['Stay options', 'Sightseeing planning', 'Visa guidance on request', 'Flight assistance on request'], itinerary: [
+            { day: 'Day 01', title: 'Arrive in Dubai', details: 'Arrival transfer and hotel check-in, subject to your selected flight and stay.' },
+            { day: 'Day 02', title: 'City highlights', details: 'Explore key city sights. Entry tickets and visits can be tailored to your preferences.' },
+            { day: 'Day 03', title: 'Desert experience', details: 'Choose a desert experience and enjoy an evening outside the city.' },
+            { day: 'Day 04', title: 'Your Dubai', details: 'Keep the day open for shopping, a beach visit or optional experiences.' },
+            { day: 'Day 05', title: 'Departure', details: 'Transfer to the airport in line with your confirmed flight.' },
+        ], gallery: [images.dubai, images.singapore, images.bali] },
+    { slug: 'kochi-coast-and-culture', name: 'Kochi Coast & Culture', destination: 'Kerala', category: 'Family', days: 3, price: 11900, image: images.kochi, summary: 'A gentle introduction to Kochi’s layered heritage and Arabian Sea shoreline.', inclusions: ['Stay suggestions', 'Local route planning', 'Transfer coordination', 'Optional experiences on request'], itinerary: [
+            { day: 'Day 01', title: 'Arrive in Kochi', details: 'Check in and spend the afternoon settling in or exploring the nearby waterfront.' },
+            { day: 'Day 02', title: 'Fort Kochi', details: 'Explore the historic lanes, galleries and waterfront at your own pace.' },
+            { day: 'Day 03', title: 'Departure', details: 'Enjoy a relaxed morning before your onward transfer.' },
+        ], gallery: [images.kochi, images.beach, images.boat] },
+    { slug: 'kerala-learning-trail', name: 'Kerala Learning Trail', destination: 'Kerala', category: 'Educational', days: 4, price: 16400, image: images.waterfall, summary: 'A flexible group route connecting landscapes, local culture and shared discoveries.', inclusions: ['Group route planning', 'Vehicle options by headcount', 'Stay coordination', 'Flexible learning stops'], itinerary: [
+            { day: 'Day 01', title: 'Set out for the hills', details: 'Travel from Coimbatore to Munnar with suitable rest stops and a relaxed arrival.' },
+            { day: 'Day 02', title: 'Landscape & local life', details: 'Explore the tea-growing region and plan a suitable local learning experience.' },
+            { day: 'Day 03', title: 'Towards the backwaters', details: 'Travel towards Alleppey, with an optional stop along the way.' },
+            { day: 'Day 04', title: 'Return journey', details: 'Enjoy a morning by the water before returning to Coimbatore.' },
+        ], gallery: [images.waterfall, images.tea, images.houseboat] },
+    { slug: 'munnar-team-retreat', name: 'Munnar Team Retreat', destination: 'Kerala', category: 'Corporate', days: 3, price: 14900, image: images.munnar, summary: 'A flexible hill-country break for teams, with space for shared time and downtime.', inclusions: ['Group travel coordination', 'Stay options for teams', 'Flexible activity planning', 'Route planning from Coimbatore'], itinerary: [
+            { day: 'Day 01', title: 'Arrive & settle in', details: 'Travel to Munnar and check in. Keep the first evening open or plan a group gathering.' },
+            { day: 'Day 02', title: 'A day together', details: 'Choose from scenic drives, local experiences or time to simply unwind as a group.' },
+            { day: 'Day 03', title: 'Return at your pace', details: 'Enjoy breakfast before your return journey to Coimbatore.' },
+        ], gallery: [images.munnar, images.hills, images.tea] },
+    { slug: 'temple-trails-tamil-nadu', name: 'Temple Trails & Traditions', destination: 'Kerala', category: 'Devotional', days: 4, price: 15800, image: images.india, summary: 'A devotional journey planned around your preferred places, pace and group needs.', inclusions: ['Route planning by preference', 'Transport coordination', 'Stay options', 'Customisable day plan'], itinerary: [
+            { day: 'Day 01', title: 'Begin from Coimbatore', details: 'Start the journey with a route planned around your chosen temples and timings.' },
+            { day: 'Day 02', title: 'A day for reflection', details: 'Visit selected places of worship, leaving room for breaks and your group’s pace.' },
+            { day: 'Day 03', title: 'Continue the route', details: 'Explore the next part of your devotional itinerary as planned with the group.' },
+            { day: 'Day 04', title: 'Return journey', details: 'Complete the route and travel back to your agreed drop point.' },
+        ], gallery: [images.india, images.kochi, images.hills] },
+    { slug: 'wayanad-camp-and-wander', name: 'Wayanad Camp & Wander', destination: 'Kerala', category: 'Camping', days: 3, price: 13800, image: images.forest, summary: 'Green trails and an outdoor stay, with experience choices confirmed to suit your group.', inclusions: ['Camp or stay options', 'Route planning', 'Local experience coordination', 'Transport options on request'], itinerary: [
+            { day: 'Day 01', title: 'Into Wayanad', details: 'Travel into Wayanad and settle in at your selected camp or stay.' },
+            { day: 'Day 02', title: 'Outdoors, your way', details: 'Choose available outdoor activities and nature experiences appropriate to your group.' },
+            { day: 'Day 03', title: 'A final slow morning', details: 'Enjoy breakfast in the hills and begin your onward journey.' },
+        ], gallery: [images.forest, images.waterfall, images.hills] },
+];
+export const faqs = [
+    { q: 'Can you plan a South India trip starting from Coimbatore?', a: 'Yes. We plan holidays across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana and Puducherry. Share your dates, traveller count and preferred pace, and the route can be shaped around Coimbatore.' },
+    { q: 'Can I customise a sample package?', a: 'Absolutely. The listed itineraries and indicative prices are starting points for discussion, not fixed offers. Ask us to adjust the route, stay style or duration.' },
+    { q: 'Are the package prices final?', a: 'No. Sample rates are indicative and can change with dates, availability, group size and selected inclusions. A confirmed quote is shared after we understand your plan.' },
+    { q: 'Can you help with international travel?', a: 'Flight, visa and foreign-exchange assistance can be discussed for international itineraries. Requirements depend on destination and traveller circumstances.' },
+];
+export const domesticDestinations = [
+    { name: 'Kerala', note: 'Backwaters, tea country & coast', image: images.munnar, featured: true },
+    { name: 'Tamil Nadu', note: 'Temple towns & hill stations', image: images.india },
+    { name: 'Karnataka', note: 'Coffee country & heritage', image: images.forest },
+    { name: 'Goa', note: 'Coastal days, your way', image: images.beach },
+    { name: 'Rajasthan', note: 'Forts, colour & desert', image: images.hills },
+    { name: 'Himachal', note: 'Mountain air & valley roads', image: images.tea },
+    { name: 'Kashmir', note: 'Lakes and Himalayan landscapes', image: images.boat },
+    { name: 'North-East', note: 'A slower journey east', image: images.waterfall },
+    { name: 'Andaman', note: 'Island time by the sea', image: images.beach },
+];
+export const internationalDestinations = [
+    { name: 'Dubai', note: 'City lights & desert evenings', image: images.dubai },
+    { name: 'Singapore', note: 'A bright city break', image: images.singapore },
+    { name: 'Malaysia', note: 'City and island combinations', image: images.singapore },
+    { name: 'Thailand', note: 'Culture, food & coast', image: images.beach },
+    { name: 'Bali', note: 'Island calm & green landscapes', image: images.bali },
+    { name: 'Sri Lanka', note: 'Coastal rail and tea country', image: images.tea },
+    { name: 'Maldives', note: 'A stay shaped around the sea', image: images.boat },
+    { name: 'Vietnam', note: 'Food, history & scenery', image: images.hills },
+    { name: 'Europe', note: 'Multi-city journeys made personal', image: images.india },
+];

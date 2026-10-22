@@ -1,0 +1,22 @@
+# compiled output
+dist
+tmp
+*.tsbuildinfo
+
+# dependencies
+node_modules
+
+# logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editors
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# system
+.DS_Store
+Thumbs.db
